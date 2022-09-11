@@ -1,0 +1,146 @@
+*{
+    overflow: auto;
+}
+
+body{
+    background-color: #8ba1bb;
+    font-family: Arial;
+}
+
+p.category{
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    margin: -25px 0px 0px 0px;
+    padding: 15px 25px 15px 25px;
+}
+
+div.category{
+    text-align: center;
+    margin-bottom: 0px;
+    overflow: visible;
+}
+
+div.content{
+    background-color: white;
+    margin: 40px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 340px;
+    box-shadow: 0px 0px 30px 2px rgb(0, 0, 0, 0.4);
+    overflow: visible;
+}
+
+h1{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;  
+    font-size: 14px;          
+}
+
+div.description{
+    text-align: center;            
+}
+
+div.separator{
+    background-color: black;
+    color: white;
+    height: 1px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    text-align: center;
+    width: 100%;
+}
+
+.image-table{
+    position: relative;
+    background-color: blue;
+}
+
+.image{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+.table{
+    position: absolute;
+    bottom: 0;
+    background-color: #6c829dc0;
+    color: white;
+    width: 100%;
+}
+
+.table td{
+    text-align: center;
+}
+
+.col{
+    width: 45%;
+}
+
+.col h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 5px solid #6c829dc0;
+    padding: 5px;
+}
+
+.col1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.col1 p{
+    border: 2px solid #6c829dc0;
+    text-align: center;
+    font-size: 14px;
+    margin-left: -40px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.col2{
+    float: right;
+}
+
+.table2 .number{
+    background-color: #6c829dc0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.table2 .instruction_step{
+    font-size: 14px;
+    padding: 4px;
+    margin: 0px;
+
+}
+
+table.table2 td{
+    vertical-align: top;
+}
+
+table.table2 tr{
+    height: 40px;
+}
